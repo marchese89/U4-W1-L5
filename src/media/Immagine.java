@@ -19,7 +19,7 @@ public class Immagine extends ElementoMultimediale implements Luminoso{
         this.luminosita--;
     }
 
-    private String stampaLuminosita(){
+    private String mostraLuminosita(){
         StringBuilder sb = new StringBuilder();
         for(int i =0 ; i < luminosita; i++){
             sb.append("*");
@@ -28,6 +28,6 @@ public class Immagine extends ElementoMultimediale implements Luminoso{
     }
 
     public void show(){
-        System.out.println(getTitolo()+" "+stampaLuminosita());
+        System.out.println(getTitolo()+" "+mostraLuminosita());
     }
 }

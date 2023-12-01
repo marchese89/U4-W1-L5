@@ -4,9 +4,9 @@ public class RegistrazioneAudio extends ElementoMultimediale implements Riproduc
 
     private int volume;
     private int durata;
-    RegistrazioneAudio(String titolo,int durata) {
+    public RegistrazioneAudio(String titolo,int durata,int volume) {
         super(titolo);
-        this.volume = 5;
+        this.volume = volume;
         this.durata = durata;
     }
 

@@ -4,9 +4,9 @@ public class Immagine extends ElementoMultimediale implements Luminoso{
 
     private int luminosita;
 
-    Immagine(String titolo) {
+    public Immagine(String titolo,int luminosita) {
         super(titolo);
-        this.luminosita = 5;
+        this.luminosita = luminosita;
     }
 
     @Override

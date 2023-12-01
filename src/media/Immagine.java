@@ -2,7 +2,7 @@ package media;
 
 public class Immagine extends ElementoMultimediale implements Luminoso{
 
-    int luminosita;
+    private int luminosita;
 
     Immagine(String titolo) {
         super(titolo);
